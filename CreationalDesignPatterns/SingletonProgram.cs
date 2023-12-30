@@ -12,7 +12,7 @@ namespace CreationalDesignPatterns
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Single demo started");
+            Console.WriteLine("Singleton demo started");
             Console.WriteLine();
 
             Console.WriteLine("--Thread test Singleton--");
