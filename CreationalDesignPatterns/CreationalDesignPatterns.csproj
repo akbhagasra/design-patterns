@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CreationalDesignPatterns.SingletonProgram</StartupObject>
+    <StartupObject>CreationalDesignPatterns.BuilderProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="AbstractFactoryProgram.cs" />
+    <Compile Include="AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="AbstractFactory\IAbstractFactory.cs" />
+    <Compile Include="BuilderProgram.cs" />
+    <Compile Include="Builder\Builder.cs" />
+    <Compile Include="Builder\BuilderInterfaces.cs" />
+    <Compile Include="FactoryProgram.cs" />
+    <Compile Include="Factory\Factory.cs" />
+    <Compile Include="Factory\ICarItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypeProgram.cs" />
+    <Compile Include="Prototype\Prototype.cs" />
     <Compile Include="SingletonProgram.cs" />
     <Compile Include="Singleton\Singleton.cs" />
     <Compile Include="Singleton\SingletonThreadSafe.cs" />
